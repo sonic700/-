@@ -4,7 +4,7 @@ function Shape() {
     this.canvas = document.createElement('canvas');
     this.context = this.canvas.getContext('2d');
     this.fontSize = 100;
-    this.dotGap = 15;
+    this.dotGap = 14;
 }
 
 Shape.radius = 7;
